@@ -1,0 +1,8 @@
+[
+  {"id":"V001","clientId":"C001","plate":"5682-ABC","brand":"Toyota","model":"Corolla","year":2020,"color":"Blanco","vin":"JTDBR32E202501801","mileage":48320,"fuel":"Gasolina"},
+  {"id":"V002","clientId":"C002","plate":"4127-KLP","brand":"Suzuki","model":"Vitara","year":2019,"color":"Gris","vin":"TSMLYD21S00982135","mileage":70110,"fuel":"Gasolina"},
+  {"id":"V003","clientId":"C003","plate":"6309-XTR","brand":"Nissan","model":"Kicks","year":2022,"color":"Azul","vin":"3N1CP5CV8NL517242","mileage":29210,"fuel":"Gasolina"},
+  {"id":"V004","clientId":"C004","plate":"2984-HQZ","brand":"Hyundai","model":"Tucson","year":2018,"color":"Negro","vin":"KM8J33A45JU612084","mileage":93200,"fuel":"Gasolina"},
+  {"id":"V005","clientId":"C005","plate":"7441-BNF","brand":"Kia","model":"Rio","year":2021,"color":"Rojo","vin":"3KPA24AD8ME398014","mileage":35800,"fuel":"Gasolina"},
+  {"id":"V006","clientId":"C001","plate":"9213-LMV","brand":"Ford","model":"Ranger","year":2023,"color":"Plata","vin":"8AFAR23L5PJ008114","mileage":18450,"fuel":"Diésel"}
+]

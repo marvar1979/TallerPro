@@ -1,0 +1,7 @@
+[
+  {"id":"C001","name":"María Quiroga","document":"6578421 CB","phone":"70711223","email":"maria.quiroga@example.com","address":"Cochabamba","since":"2025-01-18"},
+  {"id":"C002","name":"Javier Molina","document":"8235149 LP","phone":"76423987","email":"javier.molina@example.com","address":"Quillacollo","since":"2025-02-06"},
+  {"id":"C003","name":"Paola Arce","document":"6912487 SC","phone":"72280564","email":"paola.arce@example.com","address":"Sacaba","since":"2025-03-11"},
+  {"id":"C004","name":"Rodrigo Céspedes","document":"5489023 OR","phone":"77944321","email":"rodrigo.cespedes@example.com","address":"Cochabamba","since":"2025-03-27"},
+  {"id":"C005","name":"Lucía Mendoza","document":"7741290 CB","phone":"69501358","email":"lucia.mendoza@example.com","address":"Tiquipaya","since":"2025-04-09"}
+]

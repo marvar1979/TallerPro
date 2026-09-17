@@ -1,0 +1,6 @@
+[
+  {"id":"CIT-061","date":"2025-07-01","time":"08:30","clientId":"C002","vehicleId":"V002","service":"Alineación y balanceo","status":"Confirmada"},
+  {"id":"CIT-062","date":"2025-07-01","time":"10:00","clientId":"C005","vehicleId":"V005","service":"Cambio de aceite","status":"Confirmada"},
+  {"id":"CIT-063","date":"2025-07-01","time":"11:30","clientId":"C003","vehicleId":"V003","service":"Lavado premium","status":"Pendiente"},
+  {"id":"CIT-064","date":"2025-07-01","time":"14:30","clientId":"C001","vehicleId":"V006","service":"Diagnóstico general","status":"Confirmada"}
+]

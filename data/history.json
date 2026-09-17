@@ -1,0 +1,8 @@
+[
+  {"id":"H001","vehicleId":"V001","date":"2025-03-14","odometer":42100,"orderId":"OT-2025-0068","service":"Cambio de aceite y filtro","technician":"Diego Fernández","total":455,"notes":"Próximo cambio recomendado a 50.000 km."},
+  {"id":"H002","vehicleId":"V001","date":"2025-01-20","odometer":39820,"orderId":"OT-2025-0021","service":"Alineación y balanceo","technician":"Diego Fernández","total":180,"notes":"Neumáticos en buen estado."},
+  {"id":"H003","vehicleId":"V002","date":"2025-06-18","odometer":69620,"orderId":"OT-2025-0128","service":"Lavado exterior express","technician":"Camila Vargas","total":45,"notes":"Entregado conforme."},
+  {"id":"H004","vehicleId":"V003","date":"2025-04-07","odometer":24480,"orderId":"OT-2025-0084","service":"Mantenimiento 25.000 km","technician":"Diego Fernández","total":610,"notes":"Sin códigos de falla."},
+  {"id":"H005","vehicleId":"V004","date":"2025-02-22","odometer":87510,"orderId":"OT-2025-0049","service":"Cambio de batería","technician":"Diego Fernández","total":720,"notes":"Alternador cargando correctamente."},
+  {"id":"H006","vehicleId":"V005","date":"2025-06-23","odometer":35240,"orderId":"OT-2025-0135","service":"Cambio de refrigerante","technician":"Diego Fernández","total":384,"notes":"Sistema purgado y sin fugas."}
+]

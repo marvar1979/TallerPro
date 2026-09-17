@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b263b">
+  <title>TallerPro | Gestión integral para talleres</title>
+  <link rel="icon" href="assets/img/logo-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <section id="loginView" class="login-shell">
+    <div class="login-panel">
+      <div class="brand"><img src="assets/img/logo-mark.svg" alt="TallerPro"><div><strong>TallerPro</strong><small>Gestión integral automotriz</small></div></div>
+      <h1>Tu taller,<br>en una sola pantalla.</h1>
+      <p class="lead">Controla clientes, vehículos, órdenes, repuestos, lavadero, historial y cobros desde una interfaz clara y adaptable.</p>
+      <form id="loginForm" class="login-card" autocomplete="off">
+        <div class="mb-3"><label class="form-label fw-semibold">Correo</label><input id="loginEmail" class="form-control" type="email" required placeholder="usuario@tallerpro.bo"></div>
+        <div class="mb-3"><label class="form-label fw-semibold">Contraseña</label><div class="input-group"><input id="loginPassword" class="form-control" type="password" required placeholder="••••••••"><button id="togglePassword" class="btn btn-outline-secondary" type="button"><i class="bi bi-eye"></i></button></div></div>
+        <button class="btn btn-primary w-100 py-2 fw-bold" type="submit"><i class="bi bi-box-arrow-in-right me-2"></i>Ingresar</button>
+        <div id="loginError" class="alert alert-danger py-2 mt-3 mb-0 d-none small">Credenciales incorrectas.</div>
+      </form>
+      <div class="mt-4"><small class="text-muted fw-semibold">ACCESO RÁPIDO DE DEMOSTRACIÓN</small><div id="credentialButtons" class="credential-grid"></div></div>
+    </div>
+    <div class="login-visual" aria-hidden="true">
+      <div class="visual-overlay"><span class="badge bg-light text-dark text-primary mb-3">Taller · Mecánica · Lavadero</span><h2>Orden, trazabilidad y servicio.</h2><p>Una vista completa de cada vehículo, desde que agenda una cita hasta que sale del taller.</p><div class="visual-stats"><div class="visual-stat"><strong>360°</strong><span>historial por vehículo</span></div><div class="visual-stat"><strong>6 roles</strong><span>permisos por operación</span></div><div class="visual-stat"><strong>100%</strong><span>responsive</span></div></div></div>
+    </div>
+  </section>
+
+  <section id="appView" class="app-shell hidden">
+    <div id="mobileOverlay" class="overlay-mobile"></div>
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-brand-wrap"><div class="brand"><img src="assets/img/logo-mark.svg" alt=""><div><strong>TallerPro</strong><small>Centro automotriz</small></div></div></div>
+      <div class="nav-label">Operación</div>
+      <nav id="sideNav">
+        <a class="side-link active" data-view="dashboard" data-roles="all"><i class="bi bi-grid-1x2-fill"></i>Dashboard</a>
+        <a class="side-link" data-view="appointments" data-roles="admin,reception,mechanic,wash"><i class="bi bi-calendar2-check"></i>Citas</a>
+        <a class="side-link" data-view="orders" data-roles="admin,reception,mechanic,wash,client"><i class="bi bi-clipboard-check"></i>Órdenes de trabajo</a>
+        <a class="side-link" data-view="clients" data-roles="admin,reception"><i class="bi bi-people"></i>Clientes</a>
+        <a class="side-link" data-view="vehicles" data-roles="admin,reception,mechanic,client"><i class="bi bi-truck"></i>Vehículos</a>
+        <a class="side-link" data-view="services" data-roles="admin,reception,mechanic,wash"><i class="bi bi-tools"></i>Servicios</a>
+        <div class="nav-label">Control</div>
+        <a class="side-link" data-view="inventory" data-roles="admin,inventory,mechanic"><i class="bi bi-box-seam"></i>Repuestos e inventario</a>
+        <a class="side-link" data-view="history" data-roles="admin,reception,mechanic,client"><i class="bi bi-clock-history"></i>Historial</a>
+        <a class="side-link" data-view="billing" data-roles="admin,reception,client"><i class="bi bi-receipt"></i>Facturación</a>
+        <a class="side-link" data-view="team" data-roles="admin"><i class="bi bi-person-badge"></i>Equipo</a>
+        <a class="side-link" data-view="reports" data-roles="admin"><i class="bi bi-bar-chart-line"></i>Reportes</a>
+      </nav>
+      <div class="sidebar-user"><div class="d-flex align-items-center gap-2"><div id="sideAvatar" class="avatar">TP</div><div class="flex-grow-1 min-w-0"><div id="sideUserName" class="small fw-bold text-truncate">Usuario</div><div id="sideUserRole" class="role">Rol</div></div><button id="logoutBtn" class="icon-btn border-0 bg-transparent text-white" title="Cerrar sesión"><i class="bi bi-box-arrow-right"></i></button></div></div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="d-flex align-items-center gap-3"><button id="mobileMenuBtn" class="icon-btn mobile-menu"><i class="bi bi-list"></i></button><div class="topbar-title"><h2 id="topTitle">Dashboard</h2><small id="todayLabel">Centro automotriz</small></div></div>
+        <div class="topbar-actions"><button class="icon-btn" title="Búsqueda"><i class="bi bi-search"></i></button><button class="icon-btn position-relative" title="Notificaciones"><i class="bi bi-bell"></i><span class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle"></span></button><div class="user-label text-end ms-1"><div id="topUserName" class="small fw-bold">Usuario</div><div id="topUserRole" class="text-muted" style="font-size:.7rem">Rol</div></div></div>
+      </header>
+      <div class="content">
+        <section id="view-dashboard" class="view active"></section>
+        <section id="view-appointments" class="view"></section>
+        <section id="view-orders" class="view"></section>
+        <section id="view-clients" class="view"></section>
+        <section id="view-vehicles" class="view"></section>
+        <section id="view-services" class="view"></section>
+        <section id="view-inventory" class="view"></section>
+        <section id="view-history" class="view"></section>
+        <section id="view-billing" class="view"></section>
+        <section id="view-team" class="view"></section>
+        <section id="view-reports" class="view"></section>
+      </div>
+    </main>
+  </section>
+
+  <div id="appModal" class="app-modal" aria-hidden="true"><div class="modal-card"><div class="modal-head"><h3 id="modalTitle">Detalle</h3><button class="icon-btn" data-close-modal><i class="bi bi-x-lg"></i></button></div><div id="modalBody" class="modal-body-custom"></div><div id="modalFoot" class="modal-foot"><button class="btn btn-light" data-close-modal>Cerrar</button></div></div></div>
+  <div id="toastStack" class="toast-stack"></div>
+
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

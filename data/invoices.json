@@ -1,0 +1,6 @@
+[
+  {"id":"FAC-000184","orderId":"OT-2025-0135","clientId":"C005","date":"2025-06-23","subtotal":384,"tax":0,"total":384,"payment":"QR","status":"Pagada"},
+  {"id":"FAC-000180","orderId":"OT-2025-0128","clientId":"C002","date":"2025-06-18","subtotal":45,"tax":0,"total":45,"payment":"Efectivo","status":"Pagada"},
+  {"id":"FAC-000175","orderId":"OT-2025-0119","clientId":"C003","date":"2025-06-10","subtotal":590,"tax":0,"total":590,"payment":"Tarjeta","status":"Pagada"},
+  {"id":"FAC-000171","orderId":"OT-2025-0112","clientId":"C004","date":"2025-06-04","subtotal":860,"tax":0,"total":860,"payment":"Transferencia","status":"Pagada"}
+]

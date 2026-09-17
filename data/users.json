@@ -1,0 +1,8 @@
+[
+  {"id":"U001","name":"Valeria Rojas","email":"admin@tallerpro.bo","password":"Admin123!","role":"admin","label":"Administrador"},
+  {"id":"U002","name":"Marco Salvatierra","email":"recepcion@tallerpro.bo","password":"Recepcion123!","role":"reception","label":"Recepción"},
+  {"id":"U003","name":"Diego Fernández","email":"mecanico@tallerpro.bo","password":"Mecanico123!","role":"mechanic","label":"Mecánico"},
+  {"id":"U004","name":"Camila Vargas","email":"lavadero@tallerpro.bo","password":"Lavado123!","role":"wash","label":"Lavadero / Detailing"},
+  {"id":"U005","name":"Andrés Paredes","email":"almacen@tallerpro.bo","password":"Stock123!","role":"inventory","label":"Almacén"},
+  {"id":"U006","name":"María Quiroga","email":"cliente@tallerpro.bo","password":"Cliente123!","role":"client","label":"Cliente","clientId":"C001"}
+]

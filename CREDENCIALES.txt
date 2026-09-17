@@ -1,0 +1,36 @@
+TALLERPRO - CREDENCIALES DE DEMOSTRACION
+=========================================
+
+Administrador
+Correo: admin@tallerpro.bo
+Contraseña: Admin123!
+Acceso: Todos los módulos, equipo y reportes.
+
+Recepción
+Correo: recepcion@tallerpro.bo
+Contraseña: Recepcion123!
+Acceso: Clientes, vehículos, citas, órdenes y facturación.
+
+Mecánico
+Correo: mecanico@tallerpro.bo
+Contraseña: Mecanico123!
+Acceso: Órdenes mecánicas, vehículos, historial e inventario de consulta.
+
+Lavadero / Detailing
+Correo: lavadero@tallerpro.bo
+Contraseña: Lavado123!
+Acceso: Citas y órdenes de lavado/detailing.
+
+Almacén
+Correo: almacen@tallerpro.bo
+Contraseña: Stock123!
+Acceso: Repuestos, stock y alertas de inventario.
+
+Cliente
+Correo: cliente@tallerpro.bo
+Contraseña: Cliente123!
+Acceso: Sus vehículos, sus órdenes, historial y comprobantes.
+
+IMPORTANTE
+Estas credenciales existen únicamente para la demostración front-end.
+En un sistema de producción las contraseñas no deben almacenarse en JSON ni JavaScript.

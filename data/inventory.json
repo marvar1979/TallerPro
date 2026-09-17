@@ -1,0 +1,10 @@
+[
+  {"id":"R001","sku":"ACE-5W30-4L","name":"Aceite sintético 5W-30 4L","category":"Lubricantes","stock":18,"minStock":8,"unit":"bidón","cost":180,"price":245,"supplier":"LubriAndes"},
+  {"id":"R002","sku":"FIL-OIL-TY01","name":"Filtro de aceite Toyota","category":"Filtros","stock":6,"minStock":8,"unit":"unidad","cost":42,"price":70,"supplier":"AutoPartes CBBA"},
+  {"id":"R003","sku":"FIL-AIR-UNI","name":"Filtro de aire estándar","category":"Filtros","stock":12,"minStock":6,"unit":"unidad","cost":55,"price":90,"supplier":"AutoPartes CBBA"},
+  {"id":"R004","sku":"PAD-FRONT-CER","name":"Pastillas de freno cerámicas","category":"Frenos","stock":4,"minStock":6,"unit":"juego","cost":210,"price":320,"supplier":"FrenoMax"},
+  {"id":"R005","sku":"COOL-RED-1L","name":"Refrigerante rojo 1L","category":"Fluidos","stock":20,"minStock":10,"unit":"botella","cost":28,"price":48,"supplier":"LubriAndes"},
+  {"id":"R006","sku":"BUL-H4-LED","name":"Bombillo H4 LED","category":"Eléctrico","stock":9,"minStock":4,"unit":"par","cost":95,"price":150,"supplier":"ElectroCar"},
+  {"id":"R007","sku":"WIP-24-18","name":"Juego plumillas 24/18","category":"Accesorios","stock":5,"minStock":5,"unit":"juego","cost":62,"price":105,"supplier":"AutoPartes CBBA"},
+  {"id":"R008","sku":"SHAM-PH-5L","name":"Shampoo automotriz pH neutro 5L","category":"Lavado","stock":3,"minStock":4,"unit":"bidón","cost":105,"price":145,"supplier":"DetailPro"}
+]
